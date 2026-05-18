@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "staff-ai",
+  "description": "A growing team of AI staff — installable role-by-role. Each plugin represents a senior practitioner: strategist, advisor, coach, reviewer. Use only the roles you need.",
+  "owner": {
+    "name": "jyouturner",
+    "email": "jyouturner@users.noreply.github.com"
+  },
+  "metadata": {
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "ai-strategist",
+      "source": "./ai-strategist",
+      "description": "Socratic strategist that interviews you through the value → feasibility → sequencing → governance → execution framework and produces a board-ready AI-strategy slide outline. Treats safety, security, compliance, and operating governance as a full strategic pillar — not a footnote. For CTOs, CIOs, CISOs, CROs, transformation leaders, and interview candidates who need to articulate a real, operable AI strategy for a specific organization.",
+      "category": "strategy",
+      "tags": ["strategy", "executive", "ai-strategy", "ai-governance", "ai-safety", "compliance", "board", "cto", "ciso", "socratic"],
+      "homepage": "https://github.com/jyouturner/staff.ai",
+      "repository": "https://github.com/jyouturner/staff.ai",
+      "license": "MIT"
+    }
+  ]
+}

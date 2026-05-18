@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "ai-strategist",
+  "description": "A senior AI-strategy advisor that runs a Socratic interview through the value-feasibility-sequencing-execution framework and outputs a board-ready slide-deck outline. Refuses to fabricate strategy from thin inputs.",
+  "version": "1.1.0",
+  "author": {
+    "name": "jyouturner"
+  },
+  "homepage": "https://github.com/jyouturner/staff.ai",
+  "repository": "https://github.com/jyouturner/staff.ai",
+  "license": "MIT",
+  "keywords": ["ai-strategy", "executive", "cto", "strategy", "board", "socratic"]
+}
