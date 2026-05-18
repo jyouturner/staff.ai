@@ -19,6 +19,16 @@
       "homepage": "https://github.com/jyouturner/staff.ai",
       "repository": "https://github.com/jyouturner/staff.ai",
       "license": "MIT"
+    },
+    {
+      "name": "ai-native-engineer-rubric",
+      "source": "./ai-native-engineer-rubric",
+      "description": "A hiring rubric for managers recruiting 'AI-native engineers.' Forces specification of which kind of AI-native engineer the role actually needs (the 2x2 of AI engineering specialty vs. AI-first operating model), then provides a 4-dimension scorecard with evidence prompts for evaluating candidates against the specified role.",
+      "category": "hiring",
+      "tags": ["hiring", "rubric", "ai-engineer", "ai-native", "recruiting", "interview", "scorecard", "engineering-manager"],
+      "homepage": "https://github.com/jyouturner/staff.ai",
+      "repository": "https://github.com/jyouturner/staff.ai",
+      "license": "MIT"
     }
   ]
 }

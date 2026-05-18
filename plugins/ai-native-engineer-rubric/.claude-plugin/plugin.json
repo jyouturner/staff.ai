@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "ai-native-engineer-rubric",
+  "description": "A hiring rubric for the manager hiring 'AI-native engineers.' Forces specification of which kind of AI-native engineer the role actually needs (the 2x2 of AI engineering specialty vs. AI-first operating model), then provides a 4-dimension scorecard with evidence prompts for evaluating candidates against that specified role.",
+  "version": "1.0.0",
+  "author": {
+    "name": "jyouturner"
+  },
+  "homepage": "https://github.com/jyouturner/staff.ai",
+  "repository": "https://github.com/jyouturner/staff.ai",
+  "license": "MIT",
+  "keywords": ["hiring", "rubric", "ai-engineer", "ai-native", "recruiting", "interview", "scorecard"]
+}

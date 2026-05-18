@@ -33,6 +33,23 @@ Install:
 
 Then run `/reload-plugins` and trigger the skill by asking something like "help me think through an AI strategy for my company" or "what's my AI strategy."
 
+### `ai-native-engineer-rubric`
+
+A hiring rubric for managers recruiting "AI-native engineers." Treats "AI-native" not as a single capability but as a 2x2 — *AI engineering specialty* (can build AI products) crossed with *AI-first operating model* (works with AI as coworker) — and forces the manager to specify which quadrant the role actually needs before sourcing.
+
+- **Mode 1 (role specification):** walks the manager through defining the target role profile across four dimensions, before any candidates are screened. Output is a profile the manager can hand to recruiters.
+- **Mode 2 (candidate evaluation):** scores a specific candidate against the specified role with evidence prompts for each dimension. Refuses ratings without evidence.
+- No averaging, no single-score collapse. Output is a *shape of match*, not a recommendation.
+- Calls out the most common AI-native hiring anti-patterns: "uses Cursor" treated as a signal, RAG demos treated as production experience, AI-strategy fluency confused for AI-engineering fluency.
+
+Install:
+
+```
+/plugin install ai-native-engineer-rubric@staff-ai
+```
+
+Then run `/reload-plugins` and trigger the skill by asking something like "help me hire an AI-native engineer" or "I need to evaluate a candidate for an AI engineering role."
+
 *More roles to come.*
 
 ## Design principles
