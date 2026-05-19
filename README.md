@@ -50,6 +50,23 @@ Install:
 
 Then run `/reload-plugins` and trigger the skill by asking something like "help me hire an AI-native engineer" or "I need to evaluate a candidate for an AI engineering role."
 
+### `ai-native-org-designer`
+
+A diagnostic and operating-model design tool for VP-Eng and CTO leaders running an AI-native engineering transformation. Built on the premise that the published AI-native playbooks (Anthropic, Shopify, frontier labs) are *existence proofs, not templates*. Diagnoses the org across eight dimensions — substrate, regulatory posture, deployment maturity, code review culture, talent pipeline, process load, leadership posture, dissent capacity — then derives an operating-model design from the diagnosis.
+
+- **Mode 1 (rapid diagnosis):** eight-dimension readiness assessment with honest ratings. Stops there. Useful when the substrate isn't ready for design.
+- **Mode 2 (full design):** diagnosis plus an operating-model design with principles, context-specific moves (each with cost and panel-objection-internalized), three-horizon sequencing, and non-negotiable outcome metrics.
+- Internalizes the DORA-grade critique: refuses to ship a design without specifying change failure rate, MTTR, lead time, and senior attrition as the real success measures.
+- Refuses to recommend moves that don't trace back to specific diagnostic findings. No templating.
+
+Install:
+
+```
+/plugin install ai-native-org-designer@staff-ai
+```
+
+Then run `/reload-plugins` and trigger by asking something like "help me design an AI-native engineering org" or "we're rolling out AI tools across engineering, where do we start?"
+
 *More roles to come.*
 
 ## Design principles

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "ai-native-org-designer",
+  "description": "A diagnostic and operating-model design tool for VP-Eng / CTO leaders running an AI-native engineering transformation. Diagnoses the current state of the org across eight dimensions, then derives an operating-model design from the diagnosis with explicit tradeoffs, sequencing, and outcome metrics. Refuses to produce a design without first establishing what the org can actually support.",
+  "version": "1.0.0",
+  "author": {
+    "name": "jyouturner"
+  },
+  "homepage": "https://github.com/jyouturner/staff.ai",
+  "repository": "https://github.com/jyouturner/staff.ai",
+  "license": "MIT",
+  "keywords": ["ai-native", "engineering-org", "transformation", "vp-engineering", "cto", "operating-model", "dora", "engineering-leadership"]
+}

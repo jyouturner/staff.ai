@@ -29,6 +29,16 @@
       "homepage": "https://github.com/jyouturner/staff.ai",
       "repository": "https://github.com/jyouturner/staff.ai",
       "license": "MIT"
+    },
+    {
+      "name": "ai-native-org-designer",
+      "source": "./ai-native-org-designer",
+      "description": "Diagnostic and operating-model design tool for VP-Eng / CTO leaders running an AI-native engineering transformation. Diagnoses the org across eight dimensions, then derives an operating-model design from the diagnosis with explicit tradeoffs, sequencing, and outcome metrics. Refuses to produce a templated playbook.",
+      "category": "engineering-leadership",
+      "tags": ["ai-native", "engineering-org", "transformation", "vp-engineering", "cto", "operating-model", "dora", "engineering-leadership"],
+      "homepage": "https://github.com/jyouturner/staff.ai",
+      "repository": "https://github.com/jyouturner/staff.ai",
+      "license": "MIT"
     }
   ]
 }
